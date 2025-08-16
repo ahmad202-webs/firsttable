@@ -1,0 +1,107 @@
+.divtop{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    margin-top:100px;
+    margin-left: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h2{
+    color: green;
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 4px 4px 1px gray;
+    border-radius: 12px;
+}
+
+th{
+    padding: 10px 10px;
+    border-bottom: 1px solid gray;
+    color: #102C3880;
+    text-align: start;
+}
+
+td{
+    border-bottom: 1px solid rgb(196, 196, 196);
+    height: 10px;
+    padding: 10px 10px;
+}
+
+.dialogdelete {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.dialogdelete h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.dialogdelete button {
+  padding: 8px 16px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dialogdelete .yes {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.dialogdelete .no {
+  background-color: #3498db;
+  color: white;
+}
+
+
+.dialogedit::dialog{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+}
+
+.dialogedit input{
+    height: 30px;
+}
+
+.dialogedit .editbtn{
+    background-color: green;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.dialogedit .editcancle{
+    background-color: orange;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btnadd{
+    margin-left: 1100px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
